@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: #08202e;
+    /* 091c2a */
+   
+}
+a{
+    position: absolute;
+    top:50%;
+    left: 45%;
+    animation: moves1 1.5s ease-out 150ms infinite alternate ;
+}
+.img{
+    width: 10vw;
+    height: 10vw;
+    border-start-start-radius: 30%;
+    border-top-right-radius: 30%;
+    background-color: none;
+    
+}
+.img::-ms-backdrop{
+    background-color: none;
+}
+@keyframes moves1 {
+    form{
+        top: 50%;
+    }
+    to{
+       top: 40%;
+    }
+}
