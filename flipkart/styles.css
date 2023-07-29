@@ -7,6 +7,7 @@ body{
     background-color: #ffffff;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     animation: moves 4s ease-in-out 1s infinite ;
+    overflow-x: hidden;
 }
 /*=====================
    utility classer
