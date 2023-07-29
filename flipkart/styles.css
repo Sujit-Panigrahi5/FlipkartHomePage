@@ -5,8 +5,8 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: #ffffff;
-    /* animation: name duration timing-function delay iteration-count direction fill-mode;
-    animation: moves 4s ease-in-out 1s infinite ; */
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: moves 4s ease-in-out 1s infinite ;
 }
 /*=====================
    utility classer
